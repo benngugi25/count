@@ -9,6 +9,6 @@ with open(filename, "r") as file:
             try:
                 total += int(parts[-1])
             except ValueError:
-                pass   # ignore lines without numbers
+                pass  
 
 print("Total =", total)
